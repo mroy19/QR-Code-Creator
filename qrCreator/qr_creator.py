@@ -10,7 +10,7 @@ while True:
 		if(qr_addr == choice[-1]):
 			sys.exit()
 
-		qr_save = input("Patient Name: ")
+		qr_save = input("Patient ID: ")
 		my_qr.save(qr_save)
 
 		my_qr.show()
